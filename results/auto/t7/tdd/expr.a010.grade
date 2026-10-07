@@ -1,0 +1,3 @@
+GRADE: evaluate disagrees on 613 inputs, e.g.
+{:args [[:add [:num 1] [:num 0]] {}], :want 1, :got 2}
+exit 0

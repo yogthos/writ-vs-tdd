@@ -1,0 +1,7 @@
+Read TASK.md and AGENTS.md. Work test-first, in two stages.
+
+Stage 1, the tests: write test/expr/core_test.clj, clojure.test tests for expr.core, and test/stack/core_test.clj, clojure.test tests for stack.core. Together they must capture everything TASK.md says -- the shape of an expression, how it evaluates, every simplification rule and their order, size and variables, the exact program compile-expr makes, every way run can fail, and that running a compiled expression gives its value -- so that an implementation that gets any of them wrong fails a test. Write as many tests as that takes. Commit the tests with git (message 'tests') before writing any implementation.
+
+Stage 2, the implementation: write src/expr/core.clj and src/stack/core.clj and run bin/test until it exits 0. Treat your tests as the contract: if a test fails, fix the implementation; change a test only when it is genuinely wrong about TASK.md, never just to make it pass, and say in your summary each change you made to a test and why.
+
+When done, write NOTES.md: what was hard to pin down in tests, and anything you could not express.

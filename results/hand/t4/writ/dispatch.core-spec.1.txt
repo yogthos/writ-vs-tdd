@@ -1,0 +1,6 @@
+dispatch.core REJECTS |   7 of 13 laws proved (0 for every input, 7 on particular values); tested (the spec asks for no proof): a-tick-expires-first-and-then-hands-out-jobs, backlog-counts-the-due-ready-jobs, every-assignment-is-a-lease-to-that-worker, one-assignment-per-worker, a-worker-holding-a-live-lease-gets-nothing, dispatch:q:tick.first (each on at least 30 inputs that met its hypothesis)
+dispatch.d01 REJECTS failed: a-tick-expires-first-and-then-hands-out-jobs, example:tick:3
+dispatch.d02 REJECTS failed: a-tick-expires-first-and-then-hands-out-jobs, one-assignment-per-worker, example:tick:4
+dispatch.d03 REJECTS failed: a-tick-expires-first-and-then-hands-out-jobs, example:tick:1
+dispatch.d04 REJECTS failed: a-tick-expires-first-and-then-hands-out-jobs, example:tick:4
+dispatch.d05 REJECTS failed: backlog-counts-the-due-ready-jobs, example:backlog:2

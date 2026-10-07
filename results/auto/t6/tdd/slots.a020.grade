@@ -1,0 +1,3 @@
+GRADE: book-all disagrees on 1507 inputs, e.g.
+{:args [{:rooms #{}, :bookings {}, :next-id 0} [{:who 2, :len 1}] 1 6], :want [{:rooms #{}, :bookings {}, :next-id 0} [nil]], :got [{:rooms #{}, :bookings {}, :next-id 0} []]}
+exit 0

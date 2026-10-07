@@ -1,0 +1,3 @@
+GRADE: take-from disagrees on 1926 inputs, e.g.
+{:args [{:lots {}, :next-id 1} 6 7 6], :want [{:lots {}, :next-id 1} false], :got [{:lots {}, :next-id 1} true]}
+exit 0

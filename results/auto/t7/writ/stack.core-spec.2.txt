@@ -1,0 +1,6 @@
+stack.a007   REJECTS | Writ: `compile-expr`: add has 2 field(s), but `e` is read at position 3; destructure at most 3 element(s), the tag first
+stack.a008   REJECTS failed: a-sum-appends-its-operator, a-product-appends-its-operator, running-a-compiled-expression-gives-its-value, running-a-simplified-compiled-expression-gives-its-value
+stack.a009   REJECTS | Writ: `e` in `compile-expr` has data type Expr; take it apart with `(case (first e) ...)`, not `last`
+stack.a010   REJECTS failed: a-sum-appends-its-operator, a-product-appends-its-operator, a-negation-appends-its-operator, running-a-compiled-expression-gives-its-value, compiling-a-simplified-expression, running-a-simplified-compiled-expression-gives-its-value
+stack.a011   REJECTS failed: a-negation-appends-its-operator, running-a-compiled-expression-gives-its-value, running-a-simplified-compiled-expression-gives-its-value
+stack.a012   REJECTS | Writ: `compile-expr`: neg has 1 field(s), but `e` is read at position 2; destructure at most 2 element(s), the tag first

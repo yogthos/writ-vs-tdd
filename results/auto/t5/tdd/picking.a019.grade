@@ -1,0 +1,3 @@
+GRADE: pick disagrees on 1543 inputs, e.g.
+{:args [{:lots {}, :next-id 1} [{:sku 1, :qty 2}] 3], :want [{:lots {}, :next-id 1} {:filled [], :short [0], :picks []}], :got nil}
+exit 0

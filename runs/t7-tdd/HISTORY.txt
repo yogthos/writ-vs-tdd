@@ -1,0 +1,32 @@
+commit db684b3 2026-10-06 12:50:43 -0400
+    task
+
+ .gitignore           |  2 ++
+ AGENTS.md            | 10 ++++++++++
+ TASK.md              | 52 ++++++++++++++++++++++++++++++++++++++++++++++++++++
+ bin/test             |  4 ++++
+ deps.edn             |  4 ++++
+ test/test_runner.clj |  9 +++++++++
+ 6 files changed, 81 insertions(+)
+commit d5fcff7 2026-10-06 12:53:25 -0400
+    tests
+
+ test/expr/core_test.clj  | 206 +++++++++++++++++++++++++++++++++++++++++++++++
+ test/stack/core_test.clj | 152 ++++++++++++++++++++++++++++++++++
+ 2 files changed, 358 insertions(+)
+commit 56f57d2 2026-10-06 12:53:57 -0400
+    fix wrong size expectation in test
+
+ test/expr/core_test.clj | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+commit 9b642fd 2026-10-06 12:53:57 -0400
+    implementation
+
+ src/expr/core.clj  | 90 ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ src/stack/core.clj | 57 ++++++++++++++++++++++++++++++++++
+ 2 files changed, 147 insertions(+)
+commit e946c75 2026-10-06 12:54:06 -0400
+    notes
+
+ NOTES.md | 51 +++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 51 insertions(+)

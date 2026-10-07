@@ -1,0 +1,5 @@
+GRADE: run-compiled disagrees on 994 inputs, e.g.
+{:args [[:add [:num 2] [:num 1]] {}], :want 3, :got 2}
+GRADE: run disagrees on 58 inputs, e.g.
+{:args [[[:load :y] [:push -1] [:add]] {}], :want -1, :got 0}
+exit 0

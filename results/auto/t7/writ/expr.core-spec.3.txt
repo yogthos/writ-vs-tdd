@@ -1,0 +1,6 @@
+expr.a013    REJECTS | Writ: `evaluate` expects Expr for argument 1 but is passed Keyword
+expr.a014    REJECTS | Writ: `evaluate`: mul has 2 field(s), but `e` is read at position 3; destructure at most 3 element(s), the tag first
+expr.a015    REJECTS failed: evaluate-a-product, simplifying-keeps-the-value, example:evaluate:2
+expr.a016    REJECTS failed: evaluate-a-negation, simplifying-keeps-the-value
+expr.a017    REJECTS | Writ: `evaluate`: neg has 1 field(s), but `e` is read at position 2; destructure at most 2 element(s), the tag first
+expr.a018    REJECTS | Writ: `evaluate` expects Expr for argument 1 but is passed Keyword

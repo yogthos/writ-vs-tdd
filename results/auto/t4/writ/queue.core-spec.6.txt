@@ -1,0 +1,6 @@
+queue.a031   REJECTS failed: fail-retries-and-then-kills, expire-reaps-any-lease-that-has-run-out, example:fail:3
+queue.a032   REJECTS failed: fail-retries-and-then-kills, expire-reaps-any-lease-that-has-run-out, example:fail:1, example:fail:2, example:expire:1
+queue.a033   REJECTS failed: fail-retries-and-then-kills, expire-reaps-any-lease-that-has-run-out, example:fail:1, example:fail:2, example:expire:1, queue:q:fail, queue:q:expire
+queue.a034   REJECTS failed: fail-retries-and-then-kills, expire-reaps-any-lease-that-has-run-out, example:fail:1, example:fail:2, example:expire:1
+queue.a035   REJECTS failed: fail-retries-and-then-kills, expire-reaps-any-lease-that-has-run-out, example:fail:1, example:fail:2, example:expire:1
+queue.a036   REJECTS failed: complete-finishes-a-live-lease, fail-retries-and-then-kills, example:complete:2, example:complete:3

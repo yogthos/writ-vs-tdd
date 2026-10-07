@@ -1,0 +1,6 @@
+expr.a043    REJECTS failed: add-zero-on-the-right, multiply-by-zero-on-the-right, simplify-a-sum, simplify-a-product, simplify-makes-a-normal-form, simplifying-keeps-the-value
+expr.a044    REJECTS failed: add-zero-on-the-right, simplify-a-sum, simplify-makes-a-normal-form, simplify-leaves-a-normal-form, simplifying-keeps-the-value
+expr.a045    REJECTS failed: multiply-by-one-on-the-right, multiply-by-zero-on-the-left, simplify-a-sum, simplify-a-product, a-mixed-node-keeps-what-simplifies-to-non-numbers, simplify-leaves-a-normal-form, simplifying-keeps-the-value, example:simplify:2
+expr.a046    REJECTS failed: multiply-by-one-on-the-left, simplify-a-sum, simplify-a-product, simplify-makes-a-normal-form, simplify-leaves-a-normal-form, simplifying-keeps-the-value
+expr.a047    REJECTS failed: multiply-by-one-on-the-left, simplify-a-product, simplify-makes-a-normal-form, simplify-leaves-a-normal-form, simplifying-keeps-the-value
+expr.a048    REJECTS failed: multiply-by-one-on-the-left, multiply-by-zero-on-the-left, simplify-a-product, simplify-makes-a-normal-form, simplifying-keeps-the-value, example:simplify:2

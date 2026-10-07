@@ -1,0 +1,7 @@
+GRADE: available disagrees on 858 inputs, e.g.
+{:args [{:lots {0 {:id 0, :sku 0, :qty 4, :expires 9, :status :active}}, :next-id 1} 0 8], :want 4, :got 0}
+GRADE: pick disagrees on 277 inputs, e.g.
+{:args [{:lots {0 {:id 0, :sku 2, :qty 3, :expires 8, :status :active}}, :next-id 1} [{:sku 2, :qty 3} {:sku 1, :qty 1}] 6], :want [{:lots {}, :next-id 1} {:filled [0], :short [1], :picks [[0 0 3]]}], :got [{:lots {0 {:id 0, :sku 2, :qty 3, :expires 8, :status :active}}, :next-id 1} {:filled [0], :short [1], :picks [[0 0 3]]}]}
+GRADE: take-from disagrees on 159 inputs, e.g.
+{:args [{:lots {0 {:id 0, :sku 0, :qty 2, :expires 9, :status :active}}, :next-id 1} 0 2 8], :want [{:lots {}, :next-id 1} true], :got [{:lots {0 {:id 0, :sku 0, :qty 2, :expires 9, :status :active}}, :next-id 1} false]}
+exit 0

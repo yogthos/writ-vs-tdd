@@ -1,0 +1,6 @@
+stock.a013   REJECTS failed: available-counts-the-usable-lots, example:available:1, example:available:2, example:available:3, example:available:4, example:available:5
+stock.a014   REJECTS failed: available-counts-the-usable-lots, example:available:1, example:available:2, example:available:3, example:available:5
+stock.a015   REJECTS failed: available-counts-the-usable-lots, example:available:2, example:available:3, example:available:5
+stock.a016   REJECTS failed: available-counts-the-usable-lots, example:available:1, example:available:5
+stock.a017   REJECTS failed: quarantine-marks-the-lot
+stock.a018   REJECTS failed: release-reactivates-a-quarantined-lot

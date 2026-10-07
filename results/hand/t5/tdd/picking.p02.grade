@@ -1,0 +1,5 @@
+GRADE: plan disagrees on 34 inputs, e.g.
+{:args [{:lots {0 {:id 0, :sku 1, :qty 2, :expires 11, :status :active}, 1 {:id 1, :sku 2, :qty 3, :expires 7, :status :active}, 2 {:id 2, :sku 1, :qty 4, :expires 7, :status :active}}, :next-id 4} 1 1 6], :want [[2 1]], :got [[0 1]]}
+GRADE: pick disagrees on 31 inputs, e.g.
+{:args [{:lots {0 {:id 0, :sku 1, :qty 2, :expires 11, :status :active}, 1 {:id 1, :sku 2, :qty 3, :expires 7, :status :active}, 2 {:id 2, :sku 1, :qty 4, :expires 7, :status :active}}, :next-id 4} [{:sku 1, :qty 5}] 6], :want [{:lots {0 {:id 0, :sku 1, :qty 1, :expires 11, :status :active}, 1 {:id 1, :sku 2, :qty 3, :expires 7, :status :active}}, :next-id 4} {:filled [0], :short [], :picks [[0 2 4] [0 0 1]]}], :got [{:lots {1 {:id 1, :sku 2, :qty 3, :expires 7, :status :active}, 2 {:id 2, :sku 1, :qty 1, :expires 7, :status :active}}, :next-id 4} {:filled [0], :short [], :picks [[0 0 2] [0 2 3]]}]}
+exit 0

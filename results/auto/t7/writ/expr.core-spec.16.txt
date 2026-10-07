@@ -1,0 +1,6 @@
+expr.a091    REJECTS failed: variables-of-a-number, variables-of-a-variable, variables-of-a-negation, variables-of-a-sum, variables-of-a-product, variables-are-in-order, variables-are-distinct, variables-of-a-mixed-expression, example:variables:1
+expr.a092    REJECTS failed: variables-of-a-number, variables-of-a-variable, variables-of-a-negation, variables-of-a-sum, variables-of-a-product, variables-are-in-order, variables-are-distinct, variables-of-a-mixed-expression, example:variables:1
+expr.a093    REJECTS failed: variables-of-a-variable, variables-are-in-order, variables-are-distinct, variables-of-a-mixed-expression, example:variables:1
+expr.a094    REJECTS failed: variables-of-a-sum, variables-of-a-product, variables-are-in-order, variables-of-a-mixed-expression, example:variables:1
+expr.a095    REJECTS failed: variables-of-a-negation, variables-of-a-sum, variables-of-a-product, variables-are-in-order, variables-are-distinct, variables-of-a-mixed-expression, example:variables:1
+expr.a096    REJECTS failed: variables-of-a-negation, variables-of-a-sum, variables-of-a-product, variables-are-in-order, variables-are-distinct, variables-of-a-mixed-expression, example:variables:1

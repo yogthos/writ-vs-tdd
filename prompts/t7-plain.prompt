@@ -1,0 +1,3 @@
+Read TASK.md and AGENTS.md. Write src/expr/core.clj and src/stack/core.clj, implementing everything TASK.md says -- the shape of an expression, how it evaluates, every simplification rule and their order, size and variables, the exact program compile-expr makes, every way run can fail, and that running a compiled expression gives its value -- exactly. Read TASK.md carefully and make sure the code gets each of these right; you may try your code with jolt -e as you go. Do not write test files. Commit the implementation with git (message 'implementation').
+
+When done, write NOTES.md: anything in TASK.md you found ambiguous and how you read it.

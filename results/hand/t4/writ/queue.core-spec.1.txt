@@ -1,0 +1,6 @@
+queue.core   PASSES |   23 of 36 laws proved (0 for every input, 23 on particular values); tested (the spec asks for no proof): enqueue-adds-the-next-job, next-job-is-nil-exactly-when-nothing-is-due, the-next-job-is-due, nothing-due-outranks-the-next-job, lease-takes-the-next-job, complete-finishes-a-live-lease, fail-retries-and-then-kills, expire-reaps-any-lease-that-has-run-out, queue:q:enqueue.first, queue:q:lease.first, queue:q:complete, queue:q:fail, queue:q:expire (each on at least 190 inputs that met its hypothesis)
+queue.q01    REJECTS failed: nothing-due-outranks-the-next-job, example:next-job:1
+queue.q02    REJECTS failed: nothing-due-outranks-the-next-job, example:next-job:2
+queue.q03    REJECTS failed: complete-finishes-a-live-lease, fail-retries-and-then-kills, expire-reaps-any-lease-that-has-run-out, example:complete:2, example:expire:1
+queue.q04    REJECTS failed: lease-takes-the-next-job, example:lease:1
+queue.q05    REJECTS failed: fail-retries-and-then-kills, expire-reaps-any-lease-that-has-run-out, example:fail:1, example:fail:2, example:expire:1, queue:q:fail, queue:q:expire

@@ -1,0 +1,6 @@
+queue.a025   REJECTS failed: lease-takes-the-next-job, example:lease:1, queue:q:lease.first
+queue.a026   REJECTS failed: lease-takes-the-next-job, example:lease:1, queue:q:lease.first
+queue.a027   REJECTS failed: lease-takes-the-next-job, example:lease:1
+queue.a028   REJECTS failed: fail-retries-and-then-kills, expire-reaps-any-lease-that-has-run-out, example:fail:1, example:fail:2, example:fail:3, example:expire:1
+queue.a029   REJECTS failed: expire-reaps-any-lease-that-has-run-out, example:fail:3
+queue.a030   REJECTS failed: fail-retries-and-then-kills, expire-reaps-any-lease-that-has-run-out, example:fail:1, example:fail:2, example:expire:1

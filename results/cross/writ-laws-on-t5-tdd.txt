@@ -1,0 +1,4 @@
+stock.core   LAWS-HOLD writ.spec: stock.core-spec against stock.core: ok
+  15 of 22 laws proved (0 for every input, 15 on particular values); tested (the spec asks for no proof): rece
+picking.core LAWS-HOLD writ.spec: picking.core-spec against picking.core: ok
+  8 of 10 laws proved (0 for every input, 8 on particular values); tested (the spec asks for no proof): pl

@@ -1,0 +1,4 @@
+picking.p06  REJECTS failed: plan-is-the-greedy-first-expiring, pick-fills-every-line-it-can, example:plan:1, example:pick:3
+picking.p07  REJECTS failed: pick-fills-every-line-it-can
+picking.p08  REJECTS failed: plan-is-the-greedy-first-expiring, pick-fills-every-line-it-can, example:pick:2
+picking.p09  REJECTS failed: plan-is-the-greedy-first-expiring, pick-fills-every-line-it-can, example:plan:3

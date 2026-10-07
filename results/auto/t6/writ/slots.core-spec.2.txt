@@ -1,0 +1,6 @@
+slots.a007   PASSES |   5 of 12 laws proved (0 for every input, 5 on particular values); tested (the spec asks for no proof): earliest-is-the-model, no-slot-of-zero-length, earliest-prefers-the-lower-room, book-earliest-books-the-earliest, book-all-follows-the-requests, book-all-places-one-per-request, slots:cal:book-earliest.first (each on at least 149 inputs that met its hypothesis)
+slots.a008   REJECTS failed: earliest-is-the-model, book-earliest-books-the-earliest, book-all-follows-the-requests, example:book-all:1
+slots.a009   REJECTS failed: earliest-is-the-model, earliest-prefers-the-lower-room, earliest-prefers-the-earlier-start, book-earliest-books-the-earliest, book-all-follows-the-requests, example:earliest:1
+slots.a010   REJECTS failed: earliest-is-the-model, earliest-prefers-the-lower-room, earliest-prefers-the-earlier-start, book-earliest-books-the-earliest, book-all-follows-the-requests, example:earliest:1, example:book-all:1
+slots.a011   REJECTS failed: earliest-is-the-model, earliest-prefers-the-lower-room, book-earliest-books-the-earliest, book-all-follows-the-requests, example:book-all:1
+slots.a012   REJECTS failed: earliest-is-the-model, earliest-prefers-the-earlier-start, book-earliest-books-the-earliest, book-all-follows-the-requests, example:earliest:1, example:earliest:2, example:book-all:1

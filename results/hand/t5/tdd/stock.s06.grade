@@ -1,0 +1,3 @@
+GRADE: release disagrees on 1291 inputs, e.g.
+{:args [{:lots {}, :next-id 1} 1], :want {:lots {}, :next-id 1}, :got {:lots {1 {:status :active}}, :next-id 1}}
+exit 0

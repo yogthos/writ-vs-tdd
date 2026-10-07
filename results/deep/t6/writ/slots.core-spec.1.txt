@@ -1,0 +1,2 @@
+slots.z2     REJECTS failed: book-all-follows-the-requests
+slots.z3     REJECTS failed: earliest-is-the-model, earliest-prefers-the-lower-room, book-earliest-books-the-earliest, book-all-follows-the-requests

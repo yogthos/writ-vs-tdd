@@ -1,0 +1,6 @@
+rooms.a013   REJECTS failed: book-adds-when-free, calendar:cal:book.first
+rooms.a014   REJECTS failed: book-adds-when-free, calendar:cal:book.first
+rooms.a015   REJECTS failed: cancel-removes-only-the-owners
+rooms.a016   REJECTS failed: cancel-removes-only-the-owners
+rooms.a017   REJECTS failed: cancel-removes-only-the-owners
+rooms.a018   REJECTS failed: busy-is-the-rooms-pairs-sorted

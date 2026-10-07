@@ -1,0 +1,7 @@
+{:paths ["src"]
+ :deps  {io.github.jlt-commons/writ
+         {:git/url "https://github.com/jlt-commons/writ"
+          :git/sha "bf28f364717636cf3e41c1f6918671cc136dc1b9"}}
+ :aliases
+ {:check {:extra-paths ["test"]
+          :main-opts   ["-m" "check-runner"]}}}

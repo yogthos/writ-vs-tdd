@@ -1,0 +1,6 @@
+stack.a019   REJECTS failed: run-a-sum-with-one-value-is-nil, run-a-sum-with-no-values-is-nil, run-a-product-with-one-value-is-nil, run-a-product-with-no-values-is-nil, running-a-compiled-expression-gives-its-value, running-a-simplified-compiled-expression-gives-its-value
+stack.a020   REJECTS failed: run-a-sum, run-a-product, running-a-compiled-expression-gives-its-value, running-a-simplified-compiled-expression-gives-its-value, example:run:1
+stack.a021   REJECTS failed: run-a-sum-with-one-value-is-nil, run-a-product-with-one-value-is-nil
+stack.a022   REJECTS failed: run-a-sum-with-one-value-is-nil, run-a-product-with-one-value-is-nil
+stack.a023   REJECTS failed: run-a-sum, run-a-product, run-a-program-ending-with-a-left-over-value-is-nil, running-a-compiled-expression-gives-its-value, running-a-simplified-compiled-expression-gives-its-value, example:run:1
+stack.a024   REJECTS failed: run-a-sum, run-a-product, running-a-compiled-expression-gives-its-value, running-a-simplified-compiled-expression-gives-its-value, example:run:1

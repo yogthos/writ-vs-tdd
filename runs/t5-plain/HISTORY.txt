@@ -1,0 +1,14 @@
+commit ac241c5 2026-10-06 12:50:43 -0400
+    task
+
+ .gitignore |  2 ++
+ AGENTS.md  |  4 ++++
+ TASK.md    | 56 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ deps.edn   |  1 +
+ 4 files changed, 63 insertions(+)
+commit b5a6252 2026-10-06 12:52:14 -0400
+    implementation
+
+ src/picking/core.clj | 66 ++++++++++++++++++++++++++++++++++++++++++++++++++
+ src/stock/core.clj   | 68 ++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 134 insertions(+)

@@ -1,0 +1,41 @@
+a001	6	first -> last
+a002	6	first -> second
+a003	7	second -> first
+a004	8	second -> first
+a005	9	1 -> 2
+a006	9	1 -> 0
+a007	9	2 -> 3
+a008	9	2 -> 1
+a009	9	first -> last
+a010	9	first -> second
+a011	10	conj -> (fn [c x] c)
+a012	10	1 -> 2
+a013	10	1 -> 0
+a014	14	conj -> (fn [c x] c)
+a015	15	conj -> (fn [c x] c)
+a016	15	0 -> 1
+a017	16	when -> when-not
+a018	16	<= -> <
+a019	16	<= -> >=
+a020	16	2 -> 3
+a021	16	2 -> 1
+a022	16	count -> (comp inc count)
+a023	18	conj -> (fn [c x] c)
+a024	18	if -> if-not
+a025	18	= -> not=
+a026	18	+ -> -
+a027	18	* -> +
+a028	19	when -> when-not
+a029	19	<= -> <
+a030	19	<= -> >=
+a031	19	1 -> 2
+a032	19	1 -> 0
+a033	19	count -> (comp inc count)
+a034	20	conj -> (fn [c x] c)
+a035	20	- -> +
+a036	23	if -> if-not
+a037	24	when -> when-not
+a038	24	= -> not=
+a039	24	1 -> 2
+a040	24	1 -> 0
+a041	24	count -> (comp inc count)

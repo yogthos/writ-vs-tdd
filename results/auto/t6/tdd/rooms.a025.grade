@@ -1,0 +1,3 @@
+GRADE: usage disagrees on 948 inputs, e.g.
+{:args [{:rooms #{1}, :bookings {0 {:id 0, :room 1, :start 1, :end 5, :who 2}}, :next-id 1} 0], :want 0, :got 4}
+exit 0

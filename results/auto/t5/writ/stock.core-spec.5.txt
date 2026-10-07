@@ -1,0 +1,6 @@
+stock.a025   REJECTS failed: take-from-takes-when-it-may, example:take-from:3
+stock.a026   REJECTS failed: take-from-takes-when-it-may, example:take-from:1, example:take-from:5
+stock.a027   REJECTS failed: take-from-takes-when-it-may, example:take-from:1, example:take-from:5
+stock.a028   REJECTS failed: take-from-takes-when-it-may, example:take-from:1, example:take-from:5
+stock.a029   REJECTS failed: take-from-takes-when-it-may, example:take-from:1
+stock.a030   REJECTS failed: take-from-takes-when-it-may, example:take-from:1, example:take-from:5

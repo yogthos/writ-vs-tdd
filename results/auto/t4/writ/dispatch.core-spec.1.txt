@@ -1,0 +1,6 @@
+dispatch.a001 REJECTS failed: a-tick-expires-first-and-then-hands-out-jobs, one-assignment-per-worker, example:tick:4
+dispatch.a002 REJECTS failed: a-tick-expires-first-and-then-hands-out-jobs, every-assignment-is-a-lease-to-that-worker, one-assignment-per-worker, a-worker-holding-a-live-lease-gets-nothing, example:tick:1, example:tick:2, example:tick:3, example:tick:4, dispatch:q:tick.first
+dispatch.a003 REJECTS failed: a-tick-expires-first-and-then-hands-out-jobs, one-assignment-per-worker, example:tick:4
+dispatch.a004 REJECTS failed: a-tick-expires-first-and-then-hands-out-jobs, one-assignment-per-worker, a-worker-holding-a-live-lease-gets-nothing, example:tick:1, example:tick:4
+dispatch.a005 REJECTS |   7 of 13 laws proved (0 for every input, 7 on particular values); tested (the spec asks for no proof): a-tick-expires-first-and-then-hands-out-jobs, backlog-counts-the-due-ready-jobs, every-assignment-is-a-lease-to-that-worker, one-assignment-per-worker, a-worker-holding-a-live-lease-gets-nothing, dispatch:q:tick.first (each on at least 30 inputs that met its hypothesis)
+dispatch.a006 REJECTS failed: a-tick-expires-first-and-then-hands-out-jobs, one-assignment-per-worker, example:tick:4

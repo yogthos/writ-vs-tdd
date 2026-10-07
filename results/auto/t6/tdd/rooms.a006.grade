@@ -1,0 +1,11 @@
+GRADE: book-all disagrees on 652 inputs, e.g.
+{:args [{:rooms #{0}, :bookings {}, :next-id 0} [{:who 0, :len 5} {:who 1, :len 3}] 3 8], :want [{:rooms #{0}, :bookings {0 {:id 0, :room 0, :start 3, :end 8, :who 0}}, :next-id 1} [[0 3] nil]], :got [{:rooms #{0}, :bookings {0 {:id 0, :room 0, :start 3, :end 8, :who 0}, 1 {:id 1, :room 0, :start 3, :end 6, :who 1}}, :next-id 2} [[0 3] [0 3]]]}
+GRADE: earliest disagrees on 408 inputs, e.g.
+{:args [{:rooms #{1}, :bookings {0 {:id 0, :room 1, :start 8, :end 9, :who 0}}, :next-id 1} 2 0 7], :want [1 0], :got nil}
+GRADE: book-earliest disagrees on 408 inputs, e.g.
+{:args [{:rooms #{1}, :bookings {0 {:id 0, :room 1, :start 8, :end 9, :who 0}}, :next-id 1} 2 0 7 1], :want [{:rooms #{1}, :bookings {0 {:id 0, :room 1, :start 8, :end 9, :who 0}, 1 {:id 1, :room 1, :start 0, :end 2, :who 1}}, :next-id 2} [1 0]], :got [{:rooms #{1}, :bookings {0 {:id 0, :room 1, :start 8, :end 9, :who 0}}, :next-id 1} nil]}
+GRADE: free? disagrees on 102 inputs, e.g.
+{:args [{:rooms #{1}, :bookings {0 {:id 0, :room 1, :start 2, :end 7, :who 1}}, :next-id 1} 1 1 10], :want false, :got true}
+GRADE: book disagrees on 102 inputs, e.g.
+{:args [{:rooms #{1}, :bookings {0 {:id 0, :room 1, :start 2, :end 7, :who 1}}, :next-id 1} 1 1 10 0], :want [{:rooms #{1}, :bookings {0 {:id 0, :room 1, :start 2, :end 7, :who 1}}, :next-id 1} nil], :got [{:rooms #{1}, :bookings {0 {:id 0, :room 1, :start 2, :end 7, :who 1}, 1 {:id 1, :room 1, :start 1, :end 10, :who 0}}, :next-id 2} 1]}
+exit 0

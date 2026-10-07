@@ -1,0 +1,3 @@
+Read TASK.md and AGENTS.md. Write src/stock/core.clj and src/picking/core.clj, implementing everything TASK.md says -- every rule, ordering and tie-break, boundary, when a lot is usable, when a take is refused, how a plan is built, and what pick reports -- exactly. Read TASK.md carefully and make sure the code gets each of these right; you may try your code with jolt -e as you go. Do not write test files. Commit the implementation with git (message 'implementation').
+
+When done, write NOTES.md: anything in TASK.md you found ambiguous and how you read it.

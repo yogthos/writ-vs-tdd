@@ -1,0 +1,6 @@
+stock.a019   REJECTS failed: release-reactivates-a-quarantined-lot
+stock.a020   REJECTS failed: take-from-takes-when-it-may, example:take-from:1, example:take-from:2, example:take-from:3, example:take-from:4, example:take-from:5
+stock.a021   REJECTS failed: take-from-takes-when-it-may, example:take-from:2, example:take-from:3, example:take-from:4
+stock.a022   REJECTS failed: take-from-takes-when-it-may, example:take-from:1
+stock.a023   REJECTS failed: take-from-takes-when-it-may, example:take-from:1, example:take-from:5
+stock.a024   REJECTS failed: take-from-takes-when-it-may

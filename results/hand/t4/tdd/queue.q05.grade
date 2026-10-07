@@ -1,0 +1,9 @@
+GRADE: tick-run disagrees on 2269 inputs, e.g.
+{:args [{:jobs {0 {:id 0, :priority 2, :attempts 1, :status :leased, :ready-at 2, :lease {:worker 2, :until 8}}}, :next-id 2} [0 1 2] 9], :want [{:jobs {0 {:id 0, :priority 2, :attempts 1, :status :ready, :ready-at 11, :lease nil}}, :next-id 2} []], :got [{:jobs {0 {:id 0, :priority 2, :attempts 1, :status :ready, :ready-at 10, :lease nil}}, :next-id 2} []]}
+GRADE: expire disagrees on 244 inputs, e.g.
+{:args [{:jobs {0 {:id 0, :priority 2, :attempts 1, :status :leased, :ready-at 2, :lease {:worker 2, :until 8}}}, :next-id 2} 9], :want {:jobs {0 {:id 0, :priority 2, :attempts 1, :status :ready, :ready-at 11, :lease nil}}, :next-id 2}, :got {:jobs {0 {:id 0, :priority 2, :attempts 1, :status :ready, :ready-at 10, :lease nil}}, :next-id 2}}
+GRADE: tick disagrees on 244 inputs, e.g.
+{:args [{:jobs {0 {:id 0, :priority 2, :attempts 2, :status :leased, :ready-at 3, :lease {:worker 0, :until 8}}}, :next-id 2} [] 18], :want [{:jobs {0 {:id 0, :priority 2, :attempts 2, :status :ready, :ready-at 22, :lease nil}}, :next-id 2} []], :got [{:jobs {0 {:id 0, :priority 2, :attempts 2, :status :ready, :ready-at 20, :lease nil}}, :next-id 2} []]}
+GRADE: fail disagrees on 15 inputs, e.g.
+{:args [{:jobs {0 {:id 0, :priority 2, :attempts 2, :status :ready, :ready-at 4, :lease nil}, 1 {:id 1, :priority 3, :attempts 1, :status :leased, :ready-at 11, :lease {:worker 1, :until 17}}}, :next-id 3} 1 1 0], :want {:jobs {0 {:id 0, :priority 2, :attempts 2, :status :ready, :ready-at 4, :lease nil}, 1 {:id 1, :priority 3, :attempts 1, :status :ready, :ready-at 2, :lease nil}}, :next-id 3}, :got {:jobs {0 {:id 0, :priority 2, :attempts 2, :status :ready, :ready-at 4, :lease nil}, 1 {:id 1, :priority 3, :attempts 1, :status :ready, :ready-at 1, :lease nil}}, :next-id 3}}
+exit 0

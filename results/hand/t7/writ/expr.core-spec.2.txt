@@ -1,0 +1,3 @@
+expr.x06     REJECTS failed: size-of-a-negation
+expr.x07     REJECTS failed: variables-of-a-sum, variables-of-a-product, variables-are-in-order, variables-of-a-mixed-expression, example:variables:1
+expr.x08     REJECTS failed: multiply-by-one-on-the-right, simplify-a-product, simplifying-keeps-the-value

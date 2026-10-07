@@ -1,0 +1,5 @@
+GRADE: enqueue disagrees on 1500 inputs, e.g.
+{:args [{:jobs {}, :next-id 0} 3 8], :want [{:jobs {0 {:id 0, :priority 3, :attempts 0, :status :ready, :ready-at 8, :lease nil}}, :next-id 1} 0], :got [{:jobs {0 {:id 0, :priority 3, :attempts 0, :status :ready, :ready-at 8, :lease nil}}, :next-id 0} 0]}
+GRADE: tick-run disagrees on 6000 inputs, e.g.
+{:args [{:jobs {0 {:id 0, :priority 2, :attempts 0, :status :ready, :ready-at 8, :lease nil}}, :next-id 1} [0 1 2] 9], :want [{:jobs {0 {:id 0, :priority 2, :attempts 1, :status :leased, :ready-at 8, :lease {:worker 0, :until 19}}}, :next-id 1} [[0 0]]], :got [{:jobs {0 {:id 0, :priority 2, :attempts 1, :status :leased, :ready-at 8, :lease {:worker 0, :until 19}}}, :next-id 0} [[0 0]]]}
+exit 0

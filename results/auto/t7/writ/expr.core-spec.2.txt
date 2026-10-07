@@ -1,0 +1,6 @@
+expr.a007    REJECTS failed: evaluate-a-sum, simplifying-keeps-the-value, example:evaluate:1
+expr.a008    REJECTS | Writ: `evaluate` expects Expr for argument 1 but is passed Keyword
+expr.a009    REJECTS | Writ: `evaluate`: add has 2 field(s), but `e` is read at position 3; destructure at most 3 element(s), the tag first
+expr.a010    REJECTS failed: evaluate-a-sum, simplifying-keeps-the-value, example:evaluate:1
+expr.a011    REJECTS failed: evaluate-a-product, simplifying-keeps-the-value, example:evaluate:2
+expr.a012    REJECTS failed: evaluate-a-product, simplifying-keeps-the-value, example:evaluate:2

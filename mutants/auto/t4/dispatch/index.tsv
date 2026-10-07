@@ -1,0 +1,15 @@
+a001	6	some -> every?
+a002	6	and -> or
+a003	6	= -> not=
+a004	6	= -> not=
+a005	6	< -> <=
+a006	6	< -> >
+a007	11	if -> if-not
+a008	14	if -> if-not
+a009	14	conj -> (fn [c x] c)
+a010	19	count -> (comp inc count)
+a011	19	filter -> remove
+a012	19	and -> or
+a013	19	= -> not=
+a014	19	<= -> <
+a015	19	<= -> >=

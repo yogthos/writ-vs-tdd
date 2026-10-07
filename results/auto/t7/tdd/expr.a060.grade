@@ -1,0 +1,5 @@
+GRADE: simplify disagrees on 235 inputs, e.g.
+{:args [[:neg [:neg [:var :z]]]], :want [:var :z], :got [:neg [:neg [:var :z]]]}
+GRADE: compile-simplified disagrees on 235 inputs, e.g.
+{:args [[:neg [:neg [:var :z]]]], :want [[:load :z]], :got [[:load :z] [:neg] [:neg]]}
+exit 0

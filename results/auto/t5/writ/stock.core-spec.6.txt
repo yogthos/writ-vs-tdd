@@ -1,0 +1,5 @@
+stock.a031   REJECTS failed: take-from-takes-when-it-may, example:take-from:2, example:take-from:3, example:take-from:4
+stock.a032   REJECTS failed: purge-drops-the-expired, example:purge:1, example:purge:2
+stock.a033   REJECTS failed: purge-drops-the-expired, example:purge:1, example:purge:2, example:purge:3
+stock.a034   REJECTS failed: purge-drops-the-expired, example:purge:1, example:purge:2
+stock.a035   REJECTS failed: purge-drops-the-expired, example:purge:3

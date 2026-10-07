@@ -1,0 +1,3 @@
+GRADE: variables disagrees on 236 inputs, e.g.
+{:args [[:mul [:var :y] [:var :z]]], :want [:y :z], :got [:z :y]}
+exit 0

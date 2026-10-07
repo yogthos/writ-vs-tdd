@@ -1,0 +1,11 @@
+GRADE: expire disagrees on 561 inputs, e.g.
+{:args [{:jobs {0 {:id 0, :priority 1, :attempts 3, :status :leased, :ready-at 0, :lease {:worker 2, :until 1}}}, :next-id 1} 5], :want {:jobs {0 {:id 0, :priority 1, :attempts 3, :status :dead, :ready-at 0, :lease nil}}, :next-id 1}, :got {:jobs {0 {:id 0, :priority 1, :attempts 3, :status :leased, :ready-at 0, :lease {:worker 2, :until 1}}}, :next-id 1}}
+GRADE: tick disagrees on 561 inputs, e.g.
+{:args [{:jobs {0 {:id 0, :priority 0, :attempts 2, :status :leased, :ready-at 6, :lease {:worker 1, :until 6}}}, :next-id 1} [] 0], :want [{:jobs {0 {:id 0, :priority 0, :attempts 2, :status :leased, :ready-at 6, :lease {:worker 1, :until 6}}}, :next-id 1} []], :got [{:jobs {0 {:id 0, :priority 0, :attempts 2, :status :ready, :ready-at 4, :lease nil}}, :next-id 1} []]}
+GRADE: tick-run disagrees on 6024 inputs, e.g.
+{:args [{:jobs {0 {:id 0, :priority 1, :attempts 3, :status :leased, :ready-at 0, :lease {:worker 2, :until 1}}}, :next-id 1} [0 1 2] 5], :want [{:jobs {0 {:id 0, :priority 1, :attempts 3, :status :dead, :ready-at 0, :lease nil}}, :next-id 1} []], :got [{:jobs {0 {:id 0, :priority 1, :attempts 3, :status :leased, :ready-at 0, :lease {:worker 2, :until 1}}}, :next-id 1} []]}
+GRADE: complete disagrees on 35 inputs, e.g.
+{:args [{:jobs {0 {:id 0, :priority 0, :attempts 1, :status :leased, :ready-at 6, :lease {:worker 2, :until 9}}}, :next-id 1} 0 2 15], :want {:jobs {0 {:id 0, :priority 0, :attempts 1, :status :leased, :ready-at 6, :lease {:worker 2, :until 9}}}, :next-id 1}, :got {:jobs {0 {:id 0, :priority 0, :attempts 1, :status :done, :ready-at 6, :lease nil}}, :next-id 1}}
+GRADE: fail disagrees on 35 inputs, e.g.
+{:args [{:jobs {0 {:id 0, :priority 0, :attempts 3, :status :leased, :ready-at 9, :lease {:worker 1, :until 2}}}, :next-id 2} 0 1 12], :want {:jobs {0 {:id 0, :priority 0, :attempts 3, :status :leased, :ready-at 9, :lease {:worker 1, :until 2}}}, :next-id 2}, :got {:jobs {0 {:id 0, :priority 0, :attempts 3, :status :dead, :ready-at 9, :lease nil}}, :next-id 2}}
+exit 0

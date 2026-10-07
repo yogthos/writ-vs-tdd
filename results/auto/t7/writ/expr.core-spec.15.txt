@@ -1,0 +1,6 @@
+expr.a085    REJECTS failed: size-of-a-sum, size-of-a-product
+expr.a086    REJECTS | Writ: `size` returns Nat but its body has type Int
+expr.a087    REJECTS failed: size-of-a-negation
+expr.a088    REJECTS failed: size-of-a-negation
+expr.a089    REJECTS | Writ: `size`: neg has 1 field(s), but `e` is read at position 2; destructure at most 2 element(s), the tag first
+expr.a090    REJECTS | Writ: `size` expects Expr for argument 1 but is passed Keyword

@@ -1,0 +1,4 @@
+#!/bin/sh
+# Check both namespaces against their writ specs: bin/check [--seed N]
+cd "$(dirname "$0")/.."
+exec jolt -M:check expr.core-spec stack.core-spec "$@"

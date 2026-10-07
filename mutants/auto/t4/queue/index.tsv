@@ -1,0 +1,45 @@
+a001	4	10 -> 11
+a002	4	10 -> 9
+a003	5	3 -> 4
+a004	5	3 -> 2
+a005	8	and -> or
+a006	8	= -> not=
+a007	8	< -> <=
+a008	8	< -> >
+a009	13	0 -> 1
+a010	14	inc -> dec
+a011	14	inc -> identity
+a012	18	filter -> remove
+a013	18	and -> or
+a014	18	= -> not=
+a015	18	<= -> <
+a016	18	<= -> >=
+a017	19	when -> when-not
+a018	19	seq -> empty?
+a019	20	first -> last
+a020	20	first -> second
+a021	20	sort-by -> (comp reverse sort-by)
+a022	20	- -> +
+a023	23	if-let -> when-let
+a024	24	assoc -> (fn [m & _] m)
+a025	24	+ -> -
+a026	25	inc -> dec
+a027	25	inc -> identity
+a028	30	if -> if-not
+a029	30	>= -> >
+a030	30	>= -> <=
+a031	31	assoc -> (fn [m & _] m)
+a032	32	assoc -> (fn [m & _] m)
+a033	32	+ -> -
+a034	32	1 -> 2
+a035	32	1 -> 0
+a036	36	and -> or
+a037	36	= -> not=
+a038	39	if -> if-not
+a039	40	assoc -> (fn [m & _] m)
+a040	44	if -> if-not
+a041	49	assoc -> (fn [m & _] m)
+a042	50	if -> if-not
+a043	50	and -> or
+a044	50	= -> not=
+a045	50	not -> boolean

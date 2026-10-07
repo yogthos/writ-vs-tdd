@@ -1,0 +1,6 @@
+picking.a013 REJECTS failed: plan-is-the-greedy-first-expiring, pick-fills-every-line-it-can, example:plan:3
+picking.a014 REJECTS failed: plan-is-the-greedy-first-expiring, pick-fills-every-line-it-can, example:plan:3, example:plan:4, example:pick:2
+picking.a015 REJECTS failed: plan-is-the-greedy-first-expiring, pick-fills-every-line-it-can, example:plan:3, example:pick:2
+picking.a016 REJECTS | Writ: `recur` in `plan` does not descend: no argument is a structurally smaller part of its own parameter (destructure it, or use dec/rest/next of it under a test)
+picking.a017 REJECTS failed: plan-is-the-greedy-first-expiring, pick-fills-every-line-it-can, example:plan:3, example:plan:4, example:pick:2
+picking.a018 REJECTS failed: plan-is-the-greedy-first-expiring, pick-fills-every-line-it-can, example:plan:3, example:plan:4, example:pick:2

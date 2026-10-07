@@ -1,0 +1,4 @@
+queue.q06    REJECTS failed: expire-reaps-any-lease-that-has-run-out, example:fail:3
+queue.q07    REJECTS failed: complete-finishes-a-live-lease, fail-retries-and-then-kills, example:complete:3
+queue.q08    REJECTS failed: expire-reaps-any-lease-that-has-run-out, example:expire:1
+queue.q09    REJECTS failed: next-job-is-nil-exactly-when-nothing-is-due, the-next-job-is-due, example:next-job:5

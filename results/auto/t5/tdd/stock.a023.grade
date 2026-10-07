@@ -1,0 +1,5 @@
+GRADE: take-from disagrees on 75 inputs, e.g.
+{:args [{:lots {0 {:id 0, :sku 2, :qty 4, :expires 7, :status :active}}, :next-id 1} 0 4 6], :want [{:lots {}, :next-id 1} true], :got [{:lots {0 {:id 0, :sku 2, :qty 4, :expires 7, :status :active}}, :next-id 1} false]}
+GRADE: pick disagrees on 240 inputs, e.g.
+{:args [{:lots {0 {:id 0, :sku 0, :qty 4, :expires 4, :status :active}}, :next-id 1} [{:sku 0, :qty 4} {:sku 0, :qty 3}] 2], :want [{:lots {}, :next-id 1} {:filled [0], :short [1], :picks [[0 0 4]]}], :got [{:lots {0 {:id 0, :sku 0, :qty 4, :expires 4, :status :active}}, :next-id 1} {:filled [0 1], :short [], :picks [[0 0 4] [1 0 3]]}]}
+exit 0

@@ -1,0 +1,5 @@
+GRADE: compile-expr disagrees on 1178 inputs, e.g.
+{:args [[:mul [:num 2] [:num 1]]], :want [[:push 2] [:push 1] [:mul]], :got [[:push 1] [:push 2] [:mul]]}
+GRADE: compile-simplified disagrees on 838 inputs, e.g.
+{:args [[:mul [:num 2] [:var :z]]], :want [[:push 2] [:load :z] [:mul]], :got [[:load :z] [:push 2] [:mul]]}
+exit 0

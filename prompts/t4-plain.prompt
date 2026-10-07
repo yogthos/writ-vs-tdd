@@ -1,0 +1,3 @@
+Read TASK.md and AGENTS.md. Write src/queue/core.clj and src/dispatch/core.clj, implementing everything TASK.md says -- every rule, ordering and tie-break, boundary, the retry backoff and when a job dies, who may finish a job, and what a tick does -- exactly. Read TASK.md carefully and make sure the code gets each of these right; you may try your code with jolt -e as you go. Do not write test files. Commit the implementation with git (message 'implementation').
+
+When done, write NOTES.md: anything in TASK.md you found ambiguous and how you read it.

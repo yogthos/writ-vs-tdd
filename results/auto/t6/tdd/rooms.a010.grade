@@ -1,0 +1,5 @@
+GRADE: free? disagrees on 18 inputs, e.g.
+{:args [{:rooms #{0 3}, :bookings {}, :next-id 0} 0 7 7], :want false, :got true}
+GRADE: book disagrees on 18 inputs, e.g.
+{:args [{:rooms #{0 3}, :bookings {}, :next-id 0} 0 7 7 0], :want [{:rooms #{0 3}, :bookings {}, :next-id 0} nil], :got [{:rooms #{0 3}, :bookings {0 {:id 0, :room 0, :start 7, :end 7, :who 0}}, :next-id 1} 0]}
+exit 0

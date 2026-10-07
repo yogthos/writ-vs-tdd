@@ -1,0 +1,20 @@
+a001	6	when -> when-not
+a002	6	pos? -> neg?
+a003	6	pos? -> zero?
+a004	7	sort -> reverse
+a005	7	distinct -> identity
+a006	7	filter -> remove
+a007	7	<= -> <
+a008	7	<= -> >=
+a009	8	first -> last
+a010	8	first -> second
+a011	9	<= -> <
+a012	9	<= -> >=
+a013	9	+ -> -
+a014	10	sort -> reverse
+a015	11	+ -> -
+a016	15	if-let -> when-let
+a017	16	first -> last
+a018	16	first -> second
+a019	16	+ -> -
+a020	22	conj -> (fn [c x] c)

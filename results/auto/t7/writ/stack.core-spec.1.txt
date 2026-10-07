@@ -1,0 +1,6 @@
+stack.a001   REJECTS | Writ: `e` in `compile-expr` has data type Expr; take it apart with `(case (first e) ...)`, not `last`
+stack.a002   REJECTS | Writ: `e` in `compile-expr` has data type Expr; take it apart with `(case (first e) ...)`, not `second`
+stack.a003   REJECTS | Writ: `compile-expr`: field 1 of push expects Int but is given Keyword
+stack.a004   REJECTS failed: a-variable-is-loaded, running-a-compiled-expression-gives-its-value, running-a-simplified-compiled-expression-gives-its-value
+stack.a005   REJECTS failed: a-sum-appends-its-operator, a-product-appends-its-operator, running-a-compiled-expression-gives-its-value, running-a-simplified-compiled-expression-gives-its-value
+stack.a006   REJECTS | Writ: `compile-expr` expects Expr for argument 1 but is passed Keyword

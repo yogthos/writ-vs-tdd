@@ -1,0 +1,14 @@
+commit f777d8b 2026-10-06 12:50:43 -0400
+    task
+
+ .gitignore |  2 ++
+ AGENTS.md  |  4 ++++
+ TASK.md    | 52 ++++++++++++++++++++++++++++++++++++++++++++++++++++
+ deps.edn   |  1 +
+ 4 files changed, 59 insertions(+)
+commit a8c025c 2026-10-06 12:52:03 -0400
+    implementation
+
+ src/expr/core.clj  | 76 ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ src/stack/core.clj | 45 ++++++++++++++++++++++++++++++++
+ 2 files changed, 121 insertions(+)

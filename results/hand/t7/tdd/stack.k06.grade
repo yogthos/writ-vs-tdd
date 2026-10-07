@@ -1,0 +1,3 @@
+GRADE: run disagrees on 414 inputs, e.g.
+{:args [[[:push 1] [:mul]] {}], :want nil, :got (:threw)}
+exit 0

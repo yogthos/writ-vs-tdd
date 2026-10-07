@@ -1,0 +1,2 @@
+slots.a019   REJECTS failed: book-earliest-books-the-earliest, book-all-follows-the-requests, book-all-places-one-per-request, example:book-all:1, slots:cal:book-earliest.first
+slots.a020   REJECTS failed: book-all-follows-the-requests, book-all-places-one-per-request, example:book-all:1

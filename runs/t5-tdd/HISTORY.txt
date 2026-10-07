@@ -1,0 +1,27 @@
+commit de02168 2026-10-06 12:50:43 -0400
+    task
+
+ .gitignore           |  2 ++
+ AGENTS.md            | 10 ++++++++++
+ TASK.md              | 56 ++++++++++++++++++++++++++++++++++++++++++++++++++++
+ bin/test             |  4 ++++
+ deps.edn             |  4 ++++
+ test/test_runner.clj |  9 +++++++++
+ 6 files changed, 85 insertions(+)
+commit 15e0b4e 2026-10-06 12:53:10 -0400
+    tests
+
+ test/picking/core_test.clj | 168 ++++++++++++++++++++++++++++++++++++++++
+ test/stock/core_test.clj   | 188 +++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 356 insertions(+)
+commit 9448582 2026-10-06 12:53:35 -0400
+    stock and picking implementation
+
+ src/picking/core.clj | 59 ++++++++++++++++++++++++++++++++++++++++++
+ src/stock/core.clj   | 73 ++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 132 insertions(+)
+commit 2f9db70 2026-10-06 12:53:48 -0400
+    notes
+
+ NOTES.md | 83 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 83 insertions(+)

@@ -1,0 +1,6 @@
+stock.a007   REJECTS failed: receive-adds-an-active-lot, receive-of-nothing-is-nothing, example:receive:1, example:receive:2
+stock.a008   REJECTS failed: receive-adds-an-active-lot, example:receive:2
+stock.a009   REJECTS failed: receive-adds-an-active-lot, receive-of-nothing-is-nothing, example:receive:1, example:receive:2
+stock.a010   REJECTS failed: receive-adds-an-active-lot, example:receive:2
+stock.a011   REJECTS failed: receive-adds-an-active-lot, example:receive:2
+stock.a012   REJECTS failed: available-counts-the-usable-lots, example:available:1

@@ -1,0 +1,6 @@
+stock.core   PASSES |   15 of 22 laws proved (0 for every input, 15 on particular values); tested (the spec asks for no proof): receive-adds-an-active-lot, receive-of-nothing-is-nothing, available-counts-the-usable-lots, quarantine-marks-the-lot, release-reactivates-a-quarantined-lot, take-from-takes-when-it-may, purge-drops-the-expired (each on at least 216 inputs that met its hypothesis)
+stock.s01    REJECTS failed: receive-of-nothing-is-nothing, example:receive:1
+stock.s02    REJECTS failed: available-counts-the-usable-lots, example:available:3
+stock.s03    REJECTS failed: available-counts-the-usable-lots, take-from-takes-when-it-may, example:available:2, example:take-from:4
+stock.s04    REJECTS failed: take-from-takes-when-it-may, example:take-from:1
+stock.s05    REJECTS failed: take-from-takes-when-it-may, example:take-from:3

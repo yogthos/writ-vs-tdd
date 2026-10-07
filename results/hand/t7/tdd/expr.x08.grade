@@ -1,0 +1,5 @@
+GRADE: simplify disagrees on 50 inputs, e.g.
+{:args [[:mul [:var :z] [:num 1]]], :want [:var :z], :got [:num 1]}
+GRADE: compile-simplified disagrees on 50 inputs, e.g.
+{:args [[:mul [:var :z] [:num 1]]], :want [[:load :z]], :got [[:push 1]]}
+exit 0

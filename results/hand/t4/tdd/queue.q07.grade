@@ -1,0 +1,5 @@
+GRADE: complete disagrees on 27 inputs, e.g.
+{:args [{:jobs {0 {:id 0, :priority 3, :attempts 2, :status :leased, :ready-at 3, :lease {:worker 0, :until 15}}}, :next-id 1} 0 2 0], :want {:jobs {0 {:id 0, :priority 3, :attempts 2, :status :leased, :ready-at 3, :lease {:worker 0, :until 15}}}, :next-id 1}, :got {:jobs {0 {:id 0, :priority 3, :attempts 2, :status :done, :ready-at 3, :lease nil}}, :next-id 1}}
+GRADE: fail disagrees on 27 inputs, e.g.
+{:args [{:jobs {0 {:id 0, :priority 3, :attempts 2, :status :leased, :ready-at 3, :lease {:worker 0, :until 15}}}, :next-id 1} 0 2 0], :want {:jobs {0 {:id 0, :priority 3, :attempts 2, :status :leased, :ready-at 3, :lease {:worker 0, :until 15}}}, :next-id 1}, :got {:jobs {0 {:id 0, :priority 3, :attempts 2, :status :ready, :ready-at 4, :lease nil}}, :next-id 1}}
+exit 0

@@ -1,0 +1,5 @@
+.jolt/
+.writ-cache/
+.work-*/
+runs-new/
+results-new/

@@ -1,0 +1,5 @@
+GRADE: tick disagrees on 1101 inputs, e.g.
+{:args [{:jobs {}, :next-id 0} [1] 4], :want [{:jobs {}, :next-id 0} []], :got [{:jobs {}, :next-id 0} [[1 nil]]]}
+GRADE: tick-run disagrees on 7500 inputs, e.g.
+{:args [{:jobs {}, :next-id 0} [0 1 2] 2], :want [{:jobs {}, :next-id 0} []], :got [{:jobs {}, :next-id 0} [[0 nil] [1 nil] [2 nil]]]}
+exit 0

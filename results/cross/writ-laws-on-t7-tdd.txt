@@ -1,0 +1,4 @@
+expr.core    LAWS-HOLD writ.spec: expr.core-spec against expr.core: ok
+  18 of 53 laws proved (0 for every input, 18 on particular values); tested (the spec asks for no proof): evalua
+stack.core   LAWS-HOLD writ.spec: stack.core-spec against stack.core: ok
+  2 of 24 laws proved (0 for every input, 2 on particular values); tested (the spec asks for no proof): a-numb

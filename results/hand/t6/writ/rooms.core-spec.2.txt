@@ -1,0 +1,3 @@
+rooms.r06    REJECTS failed: busy-is-the-rooms-pairs-sorted
+rooms.r07    REJECTS failed: usage-is-the-booked-ticks
+rooms.r08    REJECTS failed: free?-means-nothing-clashes

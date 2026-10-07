@@ -1,0 +1,6 @@
+expr.a073    REJECTS | Writ: `simplify`: neg has 1 field(s), but `e` is read at position 2; destructure at most 2 element(s), the tag first
+expr.a074    REJECTS | Writ: `simplify` expects Expr for argument 1 but is passed Keyword
+expr.a075    REJECTS | Writ: `e` in `size` has data type Expr; take it apart with `(case (first e) ...)`, not `last`
+expr.a076    REJECTS | Writ: `e` in `size` has data type Expr; take it apart with `(case (first e) ...)`, not `second`
+expr.a077    REJECTS failed: size-of-a-number, size-of-a-variable, example:size:1
+expr.a078    REJECTS failed: size-of-a-number, size-of-a-variable, example:size:1

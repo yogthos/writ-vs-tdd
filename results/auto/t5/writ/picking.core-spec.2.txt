@@ -1,0 +1,6 @@
+picking.a007 REJECTS | Writ: `recur` in `plan` does not descend: argument 1 shrinks `lots` without a guard; `lots` must be a finite collection: give it the type (List T), (Vec T), (Set T), (Map K V) or a datatype -- with `ann` in a spec, or an annotation -- a lazy seq may never run out
+picking.a008 REJECTS failed: plan-is-the-greedy-first-expiring, pick-fills-every-line-it-can, example:plan:3, example:plan:4, example:plan:5, example:pick:2
+picking.a009 REJECTS failed: plan-is-the-greedy-first-expiring, pick-fills-every-line-it-can, example:plan:5, example:pick:2
+picking.a010 REJECTS failed: plan-is-the-greedy-first-expiring, pick-fills-every-line-it-can, example:plan:3, example:plan:4, example:pick:2
+picking.a011 REJECTS failed: plan-is-the-greedy-first-expiring, pick-fills-every-line-it-can, example:plan:1, example:plan:2, example:plan:3, example:plan:4, example:plan:5, example:pick:2, example:pick:3
+picking.a012 REJECTS | Writ: `recur` in `plan` does not descend: argument 1 shrinks `lots` without a guard; `lots` must first be tested non-empty (a `seq` or `empty?` test)

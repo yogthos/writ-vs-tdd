@@ -1,0 +1,6 @@
+stock.a001   REJECTS failed: available-counts-the-usable-lots, take-from-takes-when-it-may, example:available:2, example:available:3, example:take-from:4
+stock.a002   REJECTS failed: available-counts-the-usable-lots, take-from-takes-when-it-may, example:available:1, example:available:3, example:take-from:1, example:take-from:5
+stock.a003   REJECTS failed: available-counts-the-usable-lots, take-from-takes-when-it-may, example:available:1, example:take-from:1, example:take-from:5
+stock.a004   REJECTS failed: available-counts-the-usable-lots, take-from-takes-when-it-may, example:available:1, example:take-from:1, example:take-from:5
+stock.a005   REJECTS failed: available-counts-the-usable-lots, take-from-takes-when-it-may, example:available:2, example:take-from:4
+stock.a006   REJECTS failed: available-counts-the-usable-lots, take-from-takes-when-it-may, example:available:1, example:take-from:1, example:take-from:5

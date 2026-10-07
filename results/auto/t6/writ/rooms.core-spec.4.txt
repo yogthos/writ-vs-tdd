@@ -1,0 +1,6 @@
+rooms.a019   REJECTS failed: busy-is-the-rooms-pairs-sorted
+rooms.a020   REJECTS failed: busy-is-the-rooms-pairs-sorted
+rooms.a021   REJECTS failed: usage-is-the-booked-ticks
+rooms.a022   REJECTS failed: usage-is-the-booked-ticks, example:usage:1
+rooms.a023   REJECTS failed: usage-is-the-booked-ticks
+rooms.a024   REJECTS failed: usage-is-the-booked-ticks

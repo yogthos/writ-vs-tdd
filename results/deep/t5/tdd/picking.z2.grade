@@ -1,0 +1,5 @@
+GRADE: plan disagrees on 352 inputs, e.g.
+{:args [{:lots {}, :next-id 0} 1 0 0], :want [], :got nil}
+GRADE: pick disagrees on 476 inputs, e.g.
+{:args [{:lots {}, :next-id 0} [{:sku 1, :qty 0}] 7], :want [{:lots {}, :next-id 0} {:filled [0], :short [], :picks []}], :got [{:lots {}, :next-id 0} {:filled [], :short [0], :picks []}]}
+exit 0

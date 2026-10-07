@@ -1,0 +1,6 @@
+queue.a019   REJECTS failed: nothing-due-outranks-the-next-job, example:next-job:1, example:next-job:2, example:next-job:3
+queue.a020   REJECTS failed: next-job-is-nil-exactly-when-nothing-is-due, nothing-due-outranks-the-next-job, example:next-job:1, example:next-job:2, example:next-job:3, example:next-job:4, example:next-job:6, example:lease:1
+queue.a021   REJECTS failed: nothing-due-outranks-the-next-job, example:next-job:1, example:next-job:2, example:next-job:3
+queue.a022   REJECTS failed: nothing-due-outranks-the-next-job, example:next-job:1
+queue.a023   REJECTS failed: lease-takes-the-next-job, example:lease:1, example:lease:2, queue:q:lease.first
+queue.a024   REJECTS failed: lease-takes-the-next-job, example:lease:1

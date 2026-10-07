@@ -1,0 +1,28 @@
+commit a3fdc1b 2026-10-06 12:56:00 -0400
+    task
+
+ .gitignore           |  2 ++
+ AGENTS.md            | 10 ++++++++++
+ TASK.md              | 46 ++++++++++++++++++++++++++++++++++++++++++++++
+ bin/test             |  4 ++++
+ deps.edn             |  4 ++++
+ test/test_runner.clj |  9 +++++++++
+ 6 files changed, 75 insertions(+)
+commit 8a1e250 2026-10-06 12:57:50 -0400
+    tests
+
+ test/rooms/core_test.clj | 178 +++++++++++++++++++++++++++++++++++++++++++
+ test/slots/core_test.clj | 192 +++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 370 insertions(+)
+commit e6eadea 2026-10-06 12:58:28 -0400
+    fix test fixture: usage per who in book-all-mixes
+
+ test/slots/core_test.clj | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+commit bdb0d5c 2026-10-06 12:58:28 -0400
+    rooms.core and slots.core implementation
+
+ NOTES.md           | 54 +++++++++++++++++++++++++++++++++++++++++++++
+ src/rooms/core.clj | 65 ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ src/slots/core.clj | 59 +++++++++++++++++++++++++++++++++++++++++++++++++
+ 3 files changed, 178 insertions(+)

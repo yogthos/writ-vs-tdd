@@ -1,0 +1,5 @@
+GRADE: compile-expr disagrees on 1011 inputs, e.g.
+{:args [[:neg [:num 1]]], :want [[:push 1] [:neg]], :got (:threw)}
+GRADE: compile-simplified disagrees on 543 inputs, e.g.
+{:args [[:neg [:var :x]]], :want [[:load :x] [:neg]], :got (:threw)}
+exit 0

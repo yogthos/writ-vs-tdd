@@ -1,0 +1,6 @@
+dispatch.a007 REJECTS failed: a-tick-expires-first-and-then-hands-out-jobs, one-assignment-per-worker, a-worker-holding-a-live-lease-gets-nothing, example:tick:1, example:tick:2, example:tick:3, example:tick:4
+dispatch.a008 REJECTS failed: a-tick-expires-first-and-then-hands-out-jobs, every-assignment-is-a-lease-to-that-worker, one-assignment-per-worker, a-worker-holding-a-live-lease-gets-nothing, example:tick:1, example:tick:2, example:tick:3, example:tick:4, dispatch:q:tick.first
+dispatch.a009 REJECTS failed: a-tick-expires-first-and-then-hands-out-jobs, example:tick:1, example:tick:2, example:tick:3, example:tick:4
+dispatch.a010 REJECTS failed: backlog-counts-the-due-ready-jobs, example:backlog:1, example:backlog:2
+dispatch.a011 REJECTS failed: backlog-counts-the-due-ready-jobs, example:backlog:1, example:backlog:2
+dispatch.a012 REJECTS failed: backlog-counts-the-due-ready-jobs, example:backlog:2

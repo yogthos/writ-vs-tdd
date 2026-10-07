@@ -1,0 +1,5 @@
+GRADE: take-from disagrees on 1415 inputs, e.g.
+{:args [{:lots {}, :next-id 0} 6 3 9], :want [{:lots {}, :next-id 0} false], :got (:threw)}
+GRADE: available disagrees on 853 inputs, e.g.
+{:args [{:lots {0 {:id 0, :sku 1, :qty 2, :expires 3, :status :active}}, :next-id 1} 1 8], :want 0, :got 2}
+exit 0

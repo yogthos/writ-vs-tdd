@@ -1,0 +1,6 @@
+rooms.core   PASSES |   9 of 19 laws proved (0 for every input, 9 on particular values); tested (the spec asks for no proof): free?-means-nothing-clashes, a-room-outside-the-calendar-is-never-free, an-empty-range-is-never-free, book-adds-when-free, book-keeps-when-not-free, cancel-removes-only-the-owners, busy-is-the-rooms-pairs-sorted, usage-is-the-booked-ticks, calendar:cal:book.first, calendar:cal:cancel (each on at least 58 inputs that met its hypothesis)
+rooms.r01    REJECTS failed: free?-means-nothing-clashes, a-booking-that-ends-where-another-starts-does-not-clash
+rooms.r02    REJECTS failed: free?-means-nothing-clashes, a-room-outside-the-calendar-is-never-free
+rooms.r03    REJECTS failed: free?-means-nothing-clashes, an-empty-range-is-never-free
+rooms.r04    REJECTS failed: book-adds-when-free, calendar:cal:book.first
+rooms.r05    REJECTS failed: cancel-removes-only-the-owners

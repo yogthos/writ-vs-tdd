@@ -1,0 +1,3 @@
+slots.t06    REJECTS failed: book-all-follows-the-requests, book-all-places-one-per-request
+slots.t07    REJECTS failed: book-earliest-books-the-earliest, book-all-follows-the-requests, example:book-all:1
+slots.t08    REJECTS failed: earliest-is-the-model, earliest-prefers-the-earlier-start, book-earliest-books-the-earliest, book-all-follows-the-requests

@@ -1,0 +1,9 @@
+GRADE: tick-run disagrees on 6697 inputs, e.g.
+{:args [{:jobs {0 {:id 0, :priority 1, :attempts 1, :status :ready, :ready-at 1, :lease nil}}, :next-id 1} [0 1 2] 6], :want [{:jobs {0 {:id 0, :priority 1, :attempts 2, :status :leased, :ready-at 1, :lease {:worker 0, :until 16}}}, :next-id 1} [[0 0]]], :got [{:jobs {0 {:id 0, :priority 1, :attempts 1, :status :ready, :ready-at 1, :lease nil}}, :next-id 1} []]}
+GRADE: next-job disagrees on 697 inputs, e.g.
+{:args [{:jobs {0 {:id 0, :priority 1, :attempts 1, :status :ready, :ready-at 1, :lease nil}}, :next-id 1} 6], :want 0, :got nil}
+GRADE: lease disagrees on 697 inputs, e.g.
+{:args [{:jobs {0 {:id 0, :priority 1, :attempts 1, :status :ready, :ready-at 1, :lease nil}}, :next-id 1} 2 6], :want [{:jobs {0 {:id 0, :priority 1, :attempts 2, :status :leased, :ready-at 1, :lease {:worker 2, :until 16}}}, :next-id 1} 0], :got [{:jobs {0 {:id 0, :priority 1, :attempts 1, :status :ready, :ready-at 1, :lease nil}}, :next-id 1} nil]}
+GRADE: tick disagrees on 494 inputs, e.g.
+{:args [{:jobs {0 {:id 0, :priority 1, :attempts 0, :status :ready, :ready-at 1, :lease nil}}, :next-id 1} [0] 1], :want [{:jobs {0 {:id 0, :priority 1, :attempts 1, :status :leased, :ready-at 1, :lease {:worker 0, :until 11}}}, :next-id 1} [[0 0]]], :got [{:jobs {0 {:id 0, :priority 1, :attempts 0, :status :ready, :ready-at 1, :lease nil}}, :next-id 1} []]}
+exit 0

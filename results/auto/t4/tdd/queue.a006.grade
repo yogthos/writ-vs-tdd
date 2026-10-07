@@ -1,0 +1,7 @@
+Unhandled exception (NullPointerException): nil where a java.lang.Number is required
+  trace:
+    queue.core/live? (./src/queue/core.clj:8)
+    queue.core/holds? (./src/queue/core.clj:36)
+    queue.core/complete (./src/queue/core.clj:39)
+    grade4/-main (./g/grade4.clj:43)
+exit 1

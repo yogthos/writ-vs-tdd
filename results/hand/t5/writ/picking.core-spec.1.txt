@@ -1,0 +1,6 @@
+picking.core PASSES |   8 of 10 laws proved (0 for every input, 8 on particular values); tested (the spec asks for no proof): plan-is-the-greedy-first-expiring, pick-fills-every-line-it-can (each on at least 1000 inputs that met its hypothesis)
+picking.p01  REJECTS failed: plan-is-the-greedy-first-expiring, pick-fills-every-line-it-can, example:plan:3
+picking.p02  REJECTS failed: plan-is-the-greedy-first-expiring, pick-fills-every-line-it-can
+picking.p03  REJECTS failed: plan-is-the-greedy-first-expiring, pick-fills-every-line-it-can, example:pick:2
+picking.p04  REJECTS failed: pick-fills-every-line-it-can, example:pick:2
+picking.p05  REJECTS failed: pick-fills-every-line-it-can, example:pick:2

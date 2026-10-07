@@ -1,0 +1,6 @@
+picking.a001 REJECTS failed: plan-is-the-greedy-first-expiring, pick-fills-every-line-it-can, example:plan:5
+picking.a002 REJECTS failed: plan-is-the-greedy-first-expiring, pick-fills-every-line-it-can, example:plan:3, example:plan:4, example:plan:5, example:pick:2
+picking.a003 REJECTS failed: plan-is-the-greedy-first-expiring, pick-fills-every-line-it-can, example:plan:3, example:plan:4, example:pick:2
+picking.a004 REJECTS failed: plan-is-the-greedy-first-expiring, pick-fills-every-line-it-can, example:plan:3, example:plan:4, example:pick:2
+picking.a005 REJECTS failed: plan-is-the-greedy-first-expiring, pick-fills-every-line-it-can
+picking.a006 REJECTS failed: plan-is-the-greedy-first-expiring, pick-fills-every-line-it-can, example:plan:3, example:plan:4, example:pick:2

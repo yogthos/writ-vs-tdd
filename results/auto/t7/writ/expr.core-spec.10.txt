@@ -1,0 +1,6 @@
+expr.a055    REJECTS failed: multiply-by-zero-on-the-left, multiply-by-zero-on-the-right, simplify-a-product, simplify-makes-a-normal-form, example:simplify:2
+expr.a056    REJECTS failed: multiply-by-zero-on-the-left, simplify-a-product, simplify-makes-a-normal-form, example:simplify:2
+expr.a057    REJECTS failed: multiply-by-zero-on-the-right, simplify-a-product, simplify-makes-a-normal-form
+expr.a058    REJECTS failed: multiply-by-zero-on-the-left, multiply-by-zero-on-the-right, simplify-a-product, simplifying-keeps-the-value, example:simplify:2
+expr.a059    REJECTS failed: add-zero-on-the-left, add-zero-on-the-right, multiply-by-one-on-the-left, multiply-by-one-on-the-right, multiply-by-zero-on-the-left, multiply-by-zero-on-the-right, two-negations-cancel, simplify-a-sum, simplify-a-product, simplify-a-negation, simplify-makes-a-normal-form, simplify-leaves-a-normal-form, simplifying-twice-is-simplifying-once, simplifying-keeps-the-value
+expr.a060    REJECTS failed: two-negations-cancel, simplify-a-sum, simplify-a-product, simplify-a-negation, simplify-makes-a-normal-form, simplify-leaves-a-normal-form, simplifying-keeps-the-value

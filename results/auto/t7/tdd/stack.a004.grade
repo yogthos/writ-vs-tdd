@@ -1,0 +1,5 @@
+GRADE: compile-expr disagrees on 1961 inputs, e.g.
+{:args [[:var :y]], :want [[:load :y]], :got [[:load :var]]}
+GRADE: compile-simplified disagrees on 1865 inputs, e.g.
+{:args [[:var :y]], :want [[:load :y]], :got [[:load :var]]}
+exit 0

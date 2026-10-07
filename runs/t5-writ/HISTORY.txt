@@ -1,0 +1,30 @@
+commit c0a77f6 2026-10-06 12:50:43 -0400
+    task
+
+ .gitignore            |    2 +
+ AGENTS.md             |   13 +
+ TASK.md               |   56 +++
+ WRIT.md               | 1248 +++++++++++++++++++++++++++++++++++++++++++++++++
+ bin/check             |    4 +
+ deps.edn              |    5 +
+ test/check_runner.clj |   14 +
+ 7 files changed, 1342 insertions(+)
+commit a70824c 2026-10-06 12:55:26 -0400
+    specs
+
+ test/picking/core_spec.clj | 156 ++++++++++++++++++++++++++++++++++++++++
+ test/stock/core_spec.clj   | 175 +++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 331 insertions(+)
+commit e85a811 2026-10-06 13:10:53 -0400
+    implementation
+
+ NOTES.md             | 74 ++++++++++++++++++++++++++++++++++++++++++++++++++++
+ src/picking/core.clj | 63 ++++++++++++++++++++++++++++++++++++++++++++
+ src/stock/core.clj   | 72 ++++++++++++++++++++++++++++++++++++++++++++++++++
+ 3 files changed, 209 insertions(+)
+commit 8287086 2026-10-06 13:10:59 -0400
+    specs: ask for proof, exempt the three laws the prover cannot prove
+
+ test/picking/core_spec.clj | 6 +++++-
+ test/stock/core_spec.clj   | 4 +++-
+ 2 files changed, 8 insertions(+), 2 deletions(-)

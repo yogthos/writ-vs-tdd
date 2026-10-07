@@ -1,0 +1,6 @@
+rooms.a001   REJECTS failed: free?-means-nothing-clashes, a-booking-that-ends-where-another-starts-does-not-clash, an-empty-booking-clashes-with-nothing
+rooms.a002   REJECTS failed: an-empty-booking-clashes-with-nothing
+rooms.a003   REJECTS failed: free?-means-nothing-clashes, a-booking-that-shares-a-tick-clashes, example:free?:2
+rooms.a004   REJECTS failed: free?-means-nothing-clashes, a-booking-that-shares-a-tick-clashes, example:free?:2
+rooms.a005   REJECTS failed: free?-means-nothing-clashes
+rooms.a006   REJECTS failed: free?-means-nothing-clashes, a-booking-that-shares-a-tick-clashes, example:free?:2

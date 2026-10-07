@@ -1,0 +1,6 @@
+rooms.a007   REJECTS failed: free?-means-nothing-clashes, a-booking-that-ends-where-another-starts-does-not-clash
+rooms.a008   REJECTS failed: free?-means-nothing-clashes, a-booking-that-shares-a-tick-clashes, example:free?:2
+rooms.a009   REJECTS failed: free?-means-nothing-clashes, a-room-outside-the-calendar-is-never-free, an-empty-range-is-never-free, a-booking-that-shares-a-tick-clashes, book-adds-when-free, example:free?:2, calendar:cal:book.first
+rooms.a010   REJECTS failed: free?-means-nothing-clashes, an-empty-range-is-never-free
+rooms.a011   REJECTS failed: free?-means-nothing-clashes, an-empty-range-is-never-free, a-booking-that-ends-where-another-starts-does-not-clash, an-empty-booking-clashes-with-nothing, book-adds-when-free, example:free?:1, calendar:cal:book.first
+rooms.a012   REJECTS failed: book-adds-when-free, book-keeps-when-not-free, calendar:cal:book.first

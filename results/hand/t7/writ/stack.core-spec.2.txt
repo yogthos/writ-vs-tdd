@@ -1,0 +1,3 @@
+stack.k06    REJECTS failed: run-a-sum-with-one-value-is-nil, run-a-product-with-one-value-is-nil
+stack.k07    REJECTS failed: a-negation-appends-its-operator, running-a-compiled-expression-gives-its-value, running-a-simplified-compiled-expression-gives-its-value
+stack.k08    REJECTS failed: run-a-push, run-a-negation, run-a-sum, run-a-product, running-a-compiled-expression-gives-its-value, running-a-simplified-compiled-expression-gives-its-value

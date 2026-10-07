@@ -1,0 +1,26 @@
+commit 95bc7bf 2026-10-06 12:50:43 -0400
+    task
+
+ .gitignore            |    2 +
+ AGENTS.md             |   13 +
+ TASK.md               |   46 ++
+ WRIT.md               | 1248 +++++++++++++++++++++++++++++++++++++++++++++++++
+ bin/check             |    4 +
+ deps.edn              |    5 +
+ test/check_runner.clj |   14 +
+ 7 files changed, 1332 insertions(+)
+commit 38eeb79 2026-10-06 13:16:52 -0400
+    specs
+
+ test/rooms/core_spec.clj | 168 +++++++++++++++++++++++++++++++++++++++++++++++
+ test/slots/core_spec.clj | 140 +++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 308 insertions(+)
+commit e795bd3 2026-10-06 13:33:23 -0400
+    implementation
+
+ NOTES.md                 | 105 +++++++++++++++++++++++++++++++++++++++++++++++
+ src/rooms/core.clj       |  38 +++++++++++++++++
+ src/slots/core.clj       |  27 ++++++++++++
+ test/rooms/core_spec.clj |  14 +++----
+ test/slots/core_spec.clj |  16 +++++++-
+ 5 files changed, 192 insertions(+), 8 deletions(-)

@@ -1,0 +1,3 @@
+stock.s06    REJECTS failed: release-reactivates-a-quarantined-lot
+stock.s07    REJECTS failed: purge-drops-the-expired, example:purge:2
+stock.s08    REJECTS failed: take-from-takes-when-it-may

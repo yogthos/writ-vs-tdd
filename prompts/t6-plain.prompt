@@ -1,0 +1,3 @@
+Read TASK.md and AGENTS.md. Write src/rooms/core.clj and src/slots/core.clj, implementing everything TASK.md says -- every rule, boundary and tie-break, when ranges clash, who may cancel, how the earliest slot is chosen, and what book-all returns -- exactly. Read TASK.md carefully and make sure the code gets each of these right; you may try your code with jolt -e as you go. Do not write test files. Commit the implementation with git (message 'implementation').
+
+When done, write NOTES.md: anything in TASK.md you found ambiguous and how you read it.

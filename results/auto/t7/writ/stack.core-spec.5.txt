@@ -1,0 +1,6 @@
+stack.a025   REJECTS failed: run-a-sum, run-a-product, running-a-compiled-expression-gives-its-value, running-a-simplified-compiled-expression-gives-its-value, example:run:1
+stack.a026   REJECTS failed: run-a-sum, running-a-compiled-expression-gives-its-value, running-a-simplified-compiled-expression-gives-its-value, example:run:1
+stack.a027   REJECTS failed: run-a-product, running-a-compiled-expression-gives-its-value, running-a-simplified-compiled-expression-gives-its-value
+stack.a028   REJECTS failed: run-a-negation, run-a-negation-with-no-value-is-nil, running-a-compiled-expression-gives-its-value, running-a-simplified-compiled-expression-gives-its-value, example:run:2
+stack.a029   REJECTS failed: run-a-negation, running-a-compiled-expression-gives-its-value, running-a-simplified-compiled-expression-gives-its-value, example:run:2
+stack.a030   REJECTS failed: run-a-negation-with-no-value-is-nil, running-a-compiled-expression-gives-its-value, running-a-simplified-compiled-expression-gives-its-value

@@ -1,0 +1,4 @@
+expr.a097    REJECTS failed: variables-of-a-sum, variables-of-a-product, variables-are-in-order, variables-of-a-mixed-expression, example:variables:1
+expr.a098    REJECTS failed: variables-of-a-negation, variables-of-a-sum, variables-of-a-product, variables-of-a-mixed-expression
+expr.a099    REJECTS failed: variables-of-a-negation, variables-of-a-sum, variables-of-a-product, variables-of-a-mixed-expression
+expr.a100    REJECTS failed: variables-of-a-sum, variables-of-a-product

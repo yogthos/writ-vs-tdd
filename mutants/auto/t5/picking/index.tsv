@@ -1,0 +1,23 @@
+a001	6	and -> or
+a002	6	= -> not=
+a003	6	pos? -> neg?
+a004	6	pos? -> zero?
+a005	6	< -> <=
+a006	6	< -> >
+a007	9	sort-by -> (comp reverse sort-by)
+a008	10	filter -> remove
+a009	10	and -> or
+a010	10	= -> not=
+a011	13	zero? -> pos?
+a012	14	empty? -> seq
+a013	15	first -> last
+a014	15	first -> second
+a015	15	min -> max
+a016	16	rest -> identity
+a017	16	- -> +
+a018	16	conj -> (fn [c x] c)
+a019	20	if-let -> when-let
+a020	21	first -> last
+a021	21	first -> second
+a022	22	conj -> (fn [c x] c)
+a023	24	conj -> (fn [c x] c)

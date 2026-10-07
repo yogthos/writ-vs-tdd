@@ -1,0 +1,3 @@
+GRADE: receive disagrees on 1727 inputs, e.g.
+{:args [{:lots {}, :next-id 1} 0 6 2], :want [{:lots {1 {:id 1, :sku 0, :qty 6, :expires 2, :status :active}}, :next-id 2} 1], :got [{:lots {1 {:id 1, :sku 0, :qty 6, :expires 2, :status :active}}, :next-id 1} 1]}
+exit 0

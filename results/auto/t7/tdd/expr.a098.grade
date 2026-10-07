@@ -1,0 +1,3 @@
+GRADE: variables disagrees on 1008 inputs, e.g.
+{:args [[:neg [:num 1]]], :want [], :got (:threw)}
+exit 0

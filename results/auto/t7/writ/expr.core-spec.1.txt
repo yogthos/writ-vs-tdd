@@ -1,0 +1,6 @@
+expr.a001    REJECTS | Writ: `e` in `evaluate` has data type Expr; take it apart with `(case (first e) ...)`, not `last`
+expr.a002    REJECTS | Writ: `e` in `evaluate` has data type Expr; take it apart with `(case (first e) ...)`, not `second`
+expr.a003    REJECTS failed: evaluate-a-number, evaluate-a-sum, evaluate-a-product, evaluate-a-negation, simplifying-keeps-the-value, example:evaluate:1, example:evaluate:2
+expr.a004    REJECTS failed: evaluate-a-variable, evaluate-an-absent-variable-is-zero, example:evaluate:2
+expr.a005    REJECTS failed: evaluate-a-variable, evaluate-an-absent-variable-is-zero
+expr.a006    REJECTS failed: evaluate-a-sum, simplifying-keeps-the-value, example:evaluate:1

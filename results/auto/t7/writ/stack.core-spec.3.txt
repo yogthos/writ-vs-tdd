@@ -1,0 +1,6 @@
+stack.a013   REJECTS | Writ: `compile-expr` expects Expr for argument 1 but is passed Keyword
+stack.a014   REJECTS failed: run-a-push, run-a-negation, run-a-sum, run-a-product, running-a-compiled-expression-gives-its-value, running-a-simplified-compiled-expression-gives-its-value, example:run:1, example:run:2
+stack.a015   REJECTS failed: run-a-load, running-a-compiled-expression-gives-its-value, running-a-simplified-compiled-expression-gives-its-value
+stack.a016   REJECTS failed: run-a-load, running-a-compiled-expression-gives-its-value, running-a-simplified-compiled-expression-gives-its-value
+stack.a017   REJECTS failed: run-a-sum, run-a-product, run-a-sum-with-one-value-is-nil, run-a-sum-with-no-values-is-nil, run-a-product-with-one-value-is-nil, run-a-product-with-no-values-is-nil, running-a-compiled-expression-gives-its-value, running-a-simplified-compiled-expression-gives-its-value, example:run:1
+stack.a018   REJECTS failed: run-a-sum, run-a-product, running-a-compiled-expression-gives-its-value, running-a-simplified-compiled-expression-gives-its-value, example:run:1

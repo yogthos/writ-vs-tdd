@@ -1,0 +1,7 @@
+GRADE: earliest disagrees on 342 inputs, e.g.
+{:args [{:rooms #{0 3}, :bookings {}, :next-id 0} 4 0 7], :want [0 0], :got [3 0]}
+GRADE: book-earliest disagrees on 342 inputs, e.g.
+{:args [{:rooms #{0 3}, :bookings {}, :next-id 0} 4 0 7 0], :want [{:rooms #{0 3}, :bookings {0 {:id 0, :room 0, :start 0, :end 4, :who 0}}, :next-id 1} [0 0]], :got [{:rooms #{0 3}, :bookings {0 {:id 0, :room 3, :start 0, :end 4, :who 0}}, :next-id 1} [3 0]]}
+GRADE: book-all disagrees on 323 inputs, e.g.
+{:args [{:rooms #{0 3}, :bookings {}, :next-id 0} [{:who 1, :len 2}] 4 8], :want [{:rooms #{0 3}, :bookings {0 {:id 0, :room 0, :start 4, :end 6, :who 1}}, :next-id 1} [[0 4]]], :got [{:rooms #{0 3}, :bookings {0 {:id 0, :room 3, :start 4, :end 6, :who 1}}, :next-id 1} [[3 4]]]}
+exit 0

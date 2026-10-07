@@ -1,0 +1,1 @@
+stock.z3     REJECTS failed: available-counts-the-usable-lots

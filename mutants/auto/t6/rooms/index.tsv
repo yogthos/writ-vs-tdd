@@ -1,0 +1,25 @@
+a001	5	and -> or
+a002	5	< -> <=
+a003	5	< -> >
+a004	5	= -> not=
+a005	5	< -> <=
+a006	5	< -> >
+a007	5	< -> <=
+a008	5	< -> >
+a009	8	and -> or
+a010	9	< -> <=
+a011	9	< -> >
+a012	13	if -> if-not
+a013	17	inc -> dec
+a014	17	inc -> identity
+a015	22	if -> if-not
+a016	22	= -> not=
+a017	23	dissoc -> (fn [m & _] m)
+a018	27	sort -> reverse
+a019	27	filter -> remove
+a020	27	= -> not=
+a021	30	+ -> -
+a022	30	0 -> 1
+a023	30	- -> +
+a024	30	filter -> remove
+a025	30	= -> not=

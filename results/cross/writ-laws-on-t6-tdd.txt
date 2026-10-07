@@ -1,0 +1,2 @@
+rooms.core   FAILS-LAWS free?-means-nothing-clashes, an-empty-booking-clashes-with-nothing, busy-is-the-rooms-pairs-sorted
+slots.core   FAILS-LAWS earliest-is-the-model, book-all-follows-the-requests

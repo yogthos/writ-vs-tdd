@@ -1,0 +1,30 @@
+commit b3b510c 2026-10-06 12:56:00 -0400
+    task
+
+ .gitignore            |    2 +
+ AGENTS.md             |   13 +
+ TASK.md               |   52 +++
+ WRIT.md               | 1248 +++++++++++++++++++++++++++++++++++++++++++++++++
+ bin/check             |    4 +
+ deps.edn              |    5 +
+ test/check_runner.clj |   14 +
+ 7 files changed, 1338 insertions(+)
+commit f6e3175 2026-10-06 13:09:53 -0400
+    specs
+
+ test/expr/core_spec.clj  | 238 +++++++++++++++++++++++++++++++++++++++++++++++
+ test/stack/core_spec.clj | 126 +++++++++++++++++++++++++
+ 2 files changed, 364 insertions(+)
+commit 8b986ef 2026-10-06 13:26:23 -0400
+    spec: correct the double-negation law, add composed simplify laws, mark the unprovable laws tested
+
+ test/expr/core_spec.clj  | 167 ++++++++++++++++++++++++++++-------------------
+ test/stack/core_spec.clj |  27 ++++++++
+ 2 files changed, 128 insertions(+), 66 deletions(-)
+commit 00aeba9 2026-10-06 13:26:23 -0400
+    implementation of expr.core and stack.core, with notes
+
+ NOTES.md           | 138 +++++++++++++++++++++++++++++++++++++++++++++++++++++
+ src/expr/core.clj  | 104 ++++++++++++++++++++++++++++++++++++++++
+ src/stack/core.clj |  52 ++++++++++++++++++++
+ 3 files changed, 294 insertions(+)

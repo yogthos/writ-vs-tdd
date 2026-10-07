@@ -1,0 +1,4 @@
+queue.core   LAWS-HOLD writ.spec: queue.core-spec against queue.core: ok
+  23 of 36 laws proved (0 for every input, 23 on particular values); tested (the spec asks for no proof): enqu
+dispatch.core LAWS-HOLD writ.spec: dispatch.core-spec against dispatch.core: FAILED
+  7 of 13 laws proved (0 for every input, 7 on particular values); tested (the spec asks for no proo

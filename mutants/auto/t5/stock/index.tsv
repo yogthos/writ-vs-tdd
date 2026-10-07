@@ -1,0 +1,35 @@
+a001	5	and -> or
+a002	5	= -> not=
+a003	5	pos? -> neg?
+a004	5	pos? -> zero?
+a005	5	< -> <=
+a006	5	< -> >
+a007	8	if -> if-not
+a008	8	pos? -> neg?
+a009	8	pos? -> zero?
+a010	12	inc -> dec
+a011	12	inc -> identity
+a012	17	+ -> -
+a013	17	0 -> 1
+a014	17	filter -> remove
+a015	17	and -> or
+a016	17	= -> not=
+a017	20	if -> if-not
+a018	25	if -> if-not
+a019	25	= -> not=
+a020	31	if -> if-not
+a021	31	and -> or
+a022	31	<= -> <
+a023	31	<= -> >=
+a024	31	1 -> 2
+a025	31	1 -> 0
+a026	32	- -> +
+a027	33	if -> if-not
+a028	33	zero? -> pos?
+a029	34	dissoc -> (fn [m & _] m)
+a030	36	true -> false
+a031	37	false -> true
+a032	40	assoc -> (fn [m & _] m)
+a033	40	remove -> filter
+a034	40	<= -> <
+a035	40	<= -> >=

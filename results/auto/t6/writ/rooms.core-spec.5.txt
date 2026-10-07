@@ -1,0 +1,1 @@
+rooms.a025   REJECTS failed: usage-is-the-booked-ticks

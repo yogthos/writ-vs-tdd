@@ -1,0 +1,3 @@
+GRADE: size disagrees on 1249 inputs, e.g.
+{:args [[:mul [:num 1] [:num 0]]], :want 3, :got 4}
+exit 0

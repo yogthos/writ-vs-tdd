@@ -1,0 +1,7 @@
+Read TASK.md, AGENTS.md and WRIT.md. You will do this in two stages.
+
+Stage 1, the specs: write test/rooms/core_spec.clj, a writ spec for rooms.core, and test/slots/core_spec.clj, a writ spec for slots.core that builds on the rooms spec (WRIT.md, 'Building on another spec'). Together they must capture everything TASK.md says -- every rule, boundary and tie-break, when ranges clash, who may cancel, how the earliest slot is chosen, and what book-all returns -- so that an implementation that gets any of them wrong fails the check. Follow WRIT.md's guidance on writing a spec, and ask for proof where the prover can give it. Before the code exists, bin/check checks the specs alone; use that. Commit the specs with git (message 'specs') before writing any implementation.
+
+Stage 2, the implementation: write src/rooms/core.clj and src/slots/core.clj and run bin/check until it exits 0. Treat your specs as the contract: if the check fails, fix the implementation; change a spec only when it is genuinely wrong about TASK.md, never just to make the check pass, and say in your summary each change you made to a spec and why. Read the notes the report gives about tests of the code no law took both ways: each is a case your laws never try.
+
+When done, write NOTES.md: what was hard to say in the spec, and anything you could not express.
